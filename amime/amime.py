@@ -61,7 +61,7 @@ class Amime(Client):
 
         super().__init__(
             name,
-            config_file=f"{name}.ini",
+            config_file=f"amime.ini",
             parse_mode="html",
             workers=24,
             workdir=".",
